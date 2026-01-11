@@ -1,0 +1,142 @@
+{
+  "total_point": 100,
+  "pass_point": 50,
+  "errors": [
+    {
+      "joint": "left_elbow",
+      "distance": {
+        "x": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "left elbow is tilted to the right" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "left elbow is tilted to the left" }
+        },
+        "y": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "left elbow is too high" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "left elbow is not high enough" }
+        },
+        "z": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "left elbow is too forward" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "left elbow is not forward enough" }
+        }
+      }
+    },
+    {
+      "joint": "right_elbow",
+      "distance": {
+        "x": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "right elbow is tilted to the right" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "right elbow is tilted to the left" }
+        },
+        "y": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "right elbow is too high" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "right elbow is not high enough" }
+        },
+        "z": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "right elbow is too forward" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "right elbow is not forward enough" }
+        }
+      }
+    },
+    {
+      "joint": "left_wrist",
+      "distance": {
+        "x": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "left hand is tilted to the right" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "left hand is tilted to the left" }
+        },
+        "y": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "left hand is too high" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "left hand is not high enough" }
+        },
+        "z": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "left hand is too forward" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "left hand is not forward enough" }
+        }
+      }
+    },
+    {
+      "joint": "right_wrist",
+      "distance": {
+        "x": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "right hand is tilted to the right" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "right hand is tilted to the left" }
+        },
+        "y": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "right hand is too high" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "right hand is not high enough" }
+        },
+        "z": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "right hand is too forward" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "right hand is not forward enough" }
+        }
+      }
+    },
+    {
+      "joint": "left_knee",
+      "distance": {
+        "x": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "left knee is tilted to the right" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "left knee is tilted to the left" }
+        },
+        "y": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "left knee is too high" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "left knee is not high enough" }
+        },
+        "z": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "left knee is too forward" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "left knee is not forward enough" }
+        }
+      }
+    },
+    {
+      "joint": "right_knee",
+      "distance": {
+        "x": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "right knee is tilted to the right" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "right knee is tilted to the left" }
+        },
+        "y": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "right knee is too high" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "right knee is not high enough" }
+        },
+        "z": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "right knee is too forward" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "right knee is not forward enough" }
+        }
+      }
+    },
+    {
+      "joint": "left_ankle",
+      "distance": {
+        "x": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "left ankle is tilted to the right" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "left ankle is tilted to the left" }
+        },
+        "y": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "left ankle is too high" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "left ankle is not high enough" }
+        },
+        "z": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "left ankle is too forward" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "left ankle is not forward enough" }
+        }
+      }
+    },
+    {
+      "joint": "right_ankle",
+      "distance": {
+        "x": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "right ankle is tilted to the right" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "right ankle is tilted to the left" }
+        },
+        "y": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "right ankle is too high" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "right ankle is not high enough" }
+        },
+        "z": {
+          "positive": { "threshold": 0.05, "penalty_point": 5, "message": "right ankle is too forward" },
+          "negative": { "threshold": 0.05, "penalty_point": 5, "message": "right ankle is not forward enough" }
+        }
+      }
+    }
+  ]
+}
