@@ -1,0 +1,78 @@
+# .NET build artifacts
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio working folders
+.vs/
+.vscode/
+
+# Build results
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored if you use PackageReference
+packages/
+*.snupkg
+
+# NPM packages
+node_modules/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# OS generated files
+.DS_Store
+*.swp
+
+# Publish output
+publish/
+app.publish/
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+*.VisualState.xml
+*.vsp
+*.vspx
+*.coverage
+*.coveragexml
+
+# Others
+*.dbmdl
+*.bak
+*.cache
+*.pdb
+
+# Local history for Visual Studio
+.localhistory/
+
+# Azure Pipelines
+.azure-pipelines/
+
+# Temporary files
+~$*
